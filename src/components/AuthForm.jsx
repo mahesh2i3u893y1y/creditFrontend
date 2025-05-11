@@ -38,7 +38,7 @@ const AuthForm = () => {
   };
 
   try {
-    const res = await fetch("http://localhost:3000/login", {
+    const res = await fetch("https://creditseabackend-3txx.onrender.com/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
@@ -62,7 +62,7 @@ const handleSignup = async (e) => {
   e.preventDefault();
 
   try {
-    const res = await fetch("http://localhost:3000/signup", {
+    const res = await fetch("https://creditseabackend-3txx.onrender.com/signup", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       credentials: "include",

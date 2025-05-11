@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_BASE = "http://localhost:3000";
+const API_BASE = "https://creditseabackend-3txx.onrender.com";
 
 const useFetchStatatics = () => {
   const [overview, setOverview] = useState(null);

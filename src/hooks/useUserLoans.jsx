@@ -7,7 +7,7 @@ const useUserLoans = () => {
 
   const getMyLoans = async () => {
     try {
-      const res = await fetch("http://localhost:3000/my-loans", {
+      const res = await fetch("https://creditseabackend-3txx.onrender.com/my-loans", {
         method: "GET",
         headers: { "Content-Type": "application/json" },
         credentials: "include",

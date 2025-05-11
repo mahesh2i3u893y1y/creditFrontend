@@ -13,7 +13,7 @@ const UserLoans = () => {
   const getMyLoans = async () => {
     try {
       const res = await fetch(
-        "http://localhost:3000/my-loans",
+        "https://creditseabackend-3txx.onrender.com/my-loans",
         {
           method: "GET",
           credentials: "include",

@@ -24,7 +24,7 @@ const LoanForm = ({ onClose }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("hhttp://localhost:3000/apply-loan", {
+    const res = await fetch("https://creditseabackend-3txx.onrender.com/apply-loan", {
         method:"POST",
         headers:{
             "Content-Type":"application/json"

@@ -8,7 +8,7 @@ const useFetchLoans = () => {
 
   const fetchLoans = async () => {
     try {
-      const res = await fetch("http://localhost:3000/all-loans", {
+      const res = await fetch("https://creditseabackend-3txx.onrender.com/all-loans", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
