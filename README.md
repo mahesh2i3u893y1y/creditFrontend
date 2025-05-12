@@ -1,10 +1,12 @@
 
 Credit app is a full-stack loan management system with three user roles: User, Verifier, and Admin. It enables users to apply for loans, verifiers to review and verify/reject applications, and admins to manage final approval. It also includes real-time loan statistics and visualized reports for better insight. 
 
+
+
 User should login first with the  given credentials 
 on succesfull login it will redirect to user portal where you can see the applied loan details and add the new loan just clicking on the add loan 
 
-you can redirect to verifier portal just by clicking the drop down which will appear just clicking the toggle option at right sode of the navbar 
+// important you can redirect to verifier portal just by clicking the drop down which will appear just clicking the toggle option at right sode of the navbar 
 same as admin portal 
 
 in verifier portal we can see all the stats related to the loans 
